@@ -4,3 +4,7 @@ services:
     name: thunder
     plan: free
     startCommand: node app.js
+  - type: web
+    env: node
+    name: thunder-starter
+    startCommand: node app.js

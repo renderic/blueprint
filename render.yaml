@@ -2,5 +2,5 @@ services:
   - type: web
     env: node
     name: thunder
-    plan: free
+    plan: starter plus
     startCommand: node app.js

@@ -7,7 +7,6 @@ services:
         description: office
       - source: 198.51.100.1
         description: home
-    region: frankfurt # optional (defaults to oregon)
     plan: pro # optional (defaults to starter)
     maxmemoryPolicy: allkeys-lru # optional (defaults to allkeys-lru)
   # Redis 2 - all external connections allowed

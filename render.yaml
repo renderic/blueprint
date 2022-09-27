@@ -8,3 +8,9 @@ services:
     env: node
     name: thunder-starter
     startCommand: node app.js
+  - type: redis
+    name: lightning
+    plan: standard plus
+    ipAllowList: # required - allow external connections from everywhere
+      - source: 0.0.0.0/0
+        description: everywhere
